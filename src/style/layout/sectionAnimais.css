@@ -47,6 +47,27 @@
 }
 
 
+/* codificaçao de manipulaçao do js */
+[data-tab="description"] section{
+    display: none;
+}
+[data-tab="description"] section.ativo{
+    display: block;
+}
+
+
+
+@keyframes anima-right{
+    from{
+        opacity:0;
+        transform: translate3d(30px,-30px,0px);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(30px,30px,0px);
+    }
+}
+
 @media(max-width:650px){
     .animais-list{
          
