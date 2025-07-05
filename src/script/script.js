@@ -1,4 +1,7 @@
 import initTab from "./modules/tabNavigation.js";
 
 
-initTab(); 
+initTab();
+import initAccordion from "./modules/accordion.js";
+initAccordion();
+
