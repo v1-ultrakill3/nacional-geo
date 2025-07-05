@@ -39,6 +39,30 @@
     text-indent: 40px; 
 
 }
+/* manipulaçao atraves de js */
+
+[data-accordion="accordion"] dd {
+    display: none;
+}
+[data-accordion="accordion"] dd.ativo{
+    display: block;
+}
+
+
+[data-accordion="accordion"] dt::after{
+    content: "⮧";
+    margin-left: 5px;
+
+}
+[data-accordion="accordion"] dt.ativo::after{
+    content: "⮥";
+    margin-left: 5px;
+}
+
+
+
+
+
 
 @media(max-width:650px){
     .list-curiosidades{
